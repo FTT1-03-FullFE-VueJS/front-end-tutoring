@@ -1,0 +1,53 @@
+Bài tập 1:
+Khai báo số x có giá trị bất kỳ
+Nếu x < 0 thì in ra x là số âm
+Nếu x = 0 thì in ra x = 0
+Nếu x > 0, và x là số nguyên thì in ra x là số nguyên dương
+Nếu x > 0 và x là số  thập phân thì in ra x là số thập phân dương
+
+Bài tập 2:
+Một số nguyên lớn hơn 1 được gọi là số nguyên tố nếu nó không thể chia hết mà không có dư cho bất kỳ thứ gì ngoại trừ 1 và chính nó.
+Nói cách khác, n> 1 là số nguyên tố nếu nó không thể chia đều cho bất kỳ thứ gì ngoại trừ 1 và n.
+Nhập vào một số x kiễm tra số này có phải là số nguyên tố ko
+Nếu x là số nguyên tố in ra "x là số nguyên tố" với x là số nhập vào
+ngược lại in ra x không phải là số nguyên tố
+
+Bài tập 3:
+Viết một hàm có tên là min(a, b) truyền vào 2 số a và b
+in ra trong a và b thì số nào là số nhỏ nhất
+-> số nhỏ nhất là x
+
+Bài tập 4:
+Viết một hàm có tên là max(a, b, c, d) truyền vào 4 số a, b, c, d
+in ra trong a, b, c, d thì số nào là số lớn nhất
+-> số lớn nhất là x
+
+Bài tập 5:
+Viết chương trình để nhập tuổi và in ra kết quả nếu tuổi học sinh đó không đủ điều kiện vào học lớp 10.
+
+Bài tập 6:
+Viết chương trình để nhập một số nguyên bất kỳ từ bàn phím và in kết quả ra màn hình để nói cho người dùng biết số đó là lớn hay nhỏ hơn 100.
+
+Bài tập 7:
+Viết chương trình xếp hạng học lực của học sinh dựa trên các điểm bài kiểm tra một tiết, điểm thi giữa kỳ, điểm thi cuối kỳ.
+2 bài kiểm tra một tiết: Nhân hệ số 2
+// 10 10 5 5
+1 bài kiểm tra giữ kỳ: Nhân hệ số 3
+// 7 7 7
+1 bài kiểm tra cuối kỳ: Nhân hệ số 4
+// 8 8 8 8
+
+diem <= 5 => học sinh yếu
+5 < diem < 6.5 => học sinh trung bình
+6 <= diem < 8 => học sinh khá
+diem >= 8 => học sinh giỏi
+function xep_hang_hoc_luc(diem_bai_mot_tiet_1, diem_bai_mot_tiet_2, diem_giua_ky, diem_cuoi_ky) {
+
+}
+
+Bài tập 8
+Viết chương trình để tìm nghiệm của phương trình bậc hai ax2 + bx + c = 0.
+
+Bài tập 9
+Viết chương trình để nhập lương nhân viên, tính thuế thu nhập và lương ròng (số tiền lương thực sự mà nhân viên đó nhận được) với các thông số đã cho.
+// Dữ liệu thuế thu nhập cá nhân: https://thuvienphapluat.vn/tien-ich/tinh-thue-thu-nhap-ca-nhan.html
