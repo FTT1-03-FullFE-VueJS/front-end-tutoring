@@ -1,0 +1,32 @@
+Những giá trị sẽ trả về false:
+-> false, 0, null, undefined, ''
+Những giá trị còn lại sẽ là true
+
+var number1 = 3;
+var number2 = '3';
+
+// Đang gán giá trị của biến number 2 cho biến number 1
+// number1 = 0
+// >, <, =, >=, <=, !=
+// == : So sánh giá trị của 2 biến
+// === : So sánh giá trị của 2 biến và so sánh kiểu dữ liệu của biến đó
+
+console.log('Number 1: ',typeof number1);
+console.log('Number 2: ',typeof number2);
+
+// (number1 != number2)
+// b1: number1 == number2 => false;
+// b2: ! false; => true
+
+// (number1 !== number2)
+// b1: number1 === number2 => true;
+// b2: ! true; => false
+
+var variable = false;
+
+if (!variable) {
+    console.log('Phép toán đúng');
+} else {
+    console.log('Phép toán sai');
+}
+
