@@ -1,0 +1,64 @@
+Bài 1
+
+Viết code, một dòng cho mỗi yêu cầu sau:
+
+Tạo một đối tượng user trống.
+Thêm thuộc tính name với giá trị David.
+Thêm thuộc tính surname với giá trị Xuan.
+Thay đổi giá trị của name thành Nhan.
+Xóa thuộc tính name khỏi đối tượng.
+
+----------------------------------------------------------
+
+Bài 2
+
+Viết hàm isEmpty (obj) trả về true nếu đối tượng không có thuộc tính, ngược lại là false.
+Để sử dụng cho đoạn code sau:
+
+let schedule = {};
+
+alert( isEmpty(schedule) ); // true
+
+schedule["8:30"] = "get up";
+
+alert( isEmpty(schedule) ); // false
+
+----------------------------------------------------------
+
+Bài 3
+
+Chúng ta có một đối tượng lưu trữ tiền lương của nhóm chúng ta:
+
+let salaries = {
+  John: 100,
+  Ann: 160,
+  Pete: 130
+}
+Viết code để tính tổng tất cả các khoản lương và lưu trữ trong biến tổng. Nên là 390 trong ví dụ trên.
+
+Nếu tiền lương trống, thì kết quả phải là 0.
+
+----------------------------------------------------------
+
+Bài 4
+
+Tạo một hàm multiplyNumeric(obj) nhân tất cả các thuộc tính số của obj với 2.
+
+với Object sau:
+
+// before the call
+let menu = {
+  width: 200,
+  height: 300,
+  title: "My menu cafedev"
+};
+
+multiplyNumeric(menu);
+
+// after the call
+menu = {
+  width: 400,
+  height: 600,
+  title: "My menu cafedev"
+};
+Xin lưu ý rằng multiplyNumeric(obj) không cần trả về bất cứ thứ gì. Nó sẽ sửa đổi đối tượng tại chỗ.
