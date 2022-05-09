@@ -1,9 +1,5 @@
 const Auth = {
-    users: [
-        { id: 1, email: 'user1@gmail.com', password: 'user1pass' },
-        { id: 2, email: 'user2@gmail.com', password: 'user2pass' },
-        { id: 3, email: 'user3@gmail.com', password: 'user3pass' },
-    ],
+    users: [],
     login: function(email, password) {
         let isValid = true;
         // Check email
@@ -16,7 +12,6 @@ const Auth = {
             isValid = false;
             alert('Vui long nhap password');
         }
-
         if (isValid) {
             if (Auth.checkLogin(email, password)) {
                 location.href = 'http://127.0.0.1:5500/object/bai-tap-nang-cao-1/index.html';
@@ -54,9 +49,17 @@ const Auth = {
         if (emailLogin) {
             location.href = 'http://127.0.0.1:5500/object/bai-tap-nang-cao-1/index.html';
         }
+    },
+    getAccount: function() {
+        const accounts = localStorage.getItem('account');
+        const accountsObj = JSON.parse(accounts);
+        if (accountsObj !== null) {
+            Auth.users.push(accountsObj);
+        }
     }
 };
 
+Auth.getAccount();
 Auth.wasLogin();
 Auth.$emailLogin = document.querySelector('#email');
 Auth.$passwordLogin = document.querySelector('#password');
