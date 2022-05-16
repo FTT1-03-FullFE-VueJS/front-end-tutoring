@@ -1,0 +1,4 @@
+1. Các loại phạm vi
+- Global: Toàn cầu
+- Code Block: khối mã(let, const)
+- Local Scope: var, function

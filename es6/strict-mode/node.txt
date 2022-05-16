@@ -1,0 +1,15 @@
+1. Cách sử dụng
+- Thêm "use strict"; đầu vào file js
+- Thêm "use strict"; vào ngay sau thẻ mở của <script>
+- Thêm "use strict"; vào đầu phạm vi hàm
+
+2. Sử dụng
+- Báo lỗi khi gán lại giá trị cho thuộc tính có writable: false
+- Báo lỗi khi hàm có tham số trùng tên
+- Khai báo hàm trong "code block" thì hàm sẽ thuộc phạm vi "code block"
+- Không đặt tên biến, tên hàm bằng một số tự khóa nhạy cảm của ngôn ngữ
+
+3. Công dụng
+- Trách quên "từ khóa" khi khai báo
+- Trách trùng tên biến dẫn tới lỗi logic
+- Sử dụng bộ nhớ hiệu quả vì trách tạo biến global
